@@ -47,7 +47,7 @@ const Home = () => {
             <Col lg={6}>
               <div className="hero-content">
                 <h1 className="hero-title">
-                  The Beauty of <span>Natural Wood</span>
+                  The Beauty of <span>Natural</span>
                 </h1>
                 <p className="hero-text">
                   Explore premium furniture designed to enhance your living space with sustainable and stylish designs.
