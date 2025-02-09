@@ -57,7 +57,7 @@ const Home = () => {
                     Shop Now
                   </Button>
                   <Button href="/about" className="btn-outline">
-                    Learn More
+                    Learn more
                   </Button>
                 </div>
               </div>
