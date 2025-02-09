@@ -1,0 +1,205 @@
+/* HomePage.css */
+
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.homepage {
+  overflow-x: hidden;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #f9f7f3, #efeae4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4a4a4a;
+  margin-bottom: 1rem;
+}
+.hero-title span {
+  color: #d9a56d;
+}
+.hero-text {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+.hero-buttons .btn-primary {
+  background-color: #d9a56d;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+.hero-buttons .btn-outline {
+  border: 2px solid #d9a56d;
+  color: #d9a56d;
+  padding: 10px 20px;
+}
+.hero-image {
+  max-width: 100%;
+  border-radius: 10px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Features Section */
+.features {
+  background-color: #fafafa;
+  padding: 60px 0;
+}
+.features .icon {
+  font-size: 2.5rem;
+  color: #d9a56d;
+  margin-bottom: 10px;
+}
+.features h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+.features p {
+  color: #666;
+}
+
+/* Featured Products */
+.featured-products {
+  background-color: #fff;
+  padding-bottom: 60px;
+}
+.product-card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+.product-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+}
+.product-price {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+.testimonial-card {
+  border: none;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.testimonial-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+.testimonial-quote {
+  font-style: italic;
+  color: #555;
+}
+.testimonial-author {
+  font-size: 1rem;
+  color: #888;
+  text-align: right;
+}
+
+/* Newsletter Section */
+.newsletter {
+  background-color: #fff;
+  padding: 60px 0;
+}
+.newsletter-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+.newsletter p {
+  color: #666;
+}
+.newsletter .form-control {
+  padding: 10px;
+}
+.newsletter .btn-primary {
+  background-color: #d9a56d;
+  border: none;
+  padding: 10px 20px;
+}
+
+/* Scroll to Top Button */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #d9a56d;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding-top: 40px;
+}
+.footer h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.footer p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+.footer .btn-outline {
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  .hero-text {
+    font-size: 1rem;
+  }
+  .hero-buttons .btn-primary,
+  .hero-buttons .btn-outline {
+    padding: 8px 16px;
+  }
+  .section-title {
+    font-size: 1.8rem;
+  }
+}

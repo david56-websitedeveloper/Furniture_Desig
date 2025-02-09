@@ -1,0 +1,133 @@
+/* Cart Page */
+.cart-page {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.cart-page h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cart-items {
+  margin-bottom: 30px;
+}
+
+.cart-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.cart-item:hover {
+  transform: translateY(-5px);
+}
+
+.cart-item img {
+  width: 100%;
+  max-width: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.cart-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.cart-item p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-controls button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.quantity-controls button:hover {
+  background-color: #2980b9;
+}
+
+.cart-summary {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cart-summary h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cart-summary p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.cart-summary input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.cart-summary button {
+  padding: 12px 20px;
+  border-radius: 5px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cart-summary button:hover {
+  background-color: #27ae60;
+}
+
+.cart-summary .btn-danger {
+  background-color: #e74c3c;
+  margin-top: 15px;
+}
+
+.cart-summary .btn-danger:hover {
+  background-color: #c0392b;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cart-item img {
+    max-width: 100px;
+  }
+
+  .cart-summary {
+    margin-top: 30px;
+  }
+
+  .quantity-controls {
+    flex-direction: column;
+  }
+
+  .cart-summary input,
+  .cart-summary button {
+    width: 100%;
+  }
+}
