@@ -1,0 +1,282 @@
+frontend/
+├── public/
+│   ├── index.html
+│   └── ... (other static assets)
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   │   ├── couch.png
+│   │   │   ├── hero-banner.jpg
+│   │   │   ├── image.jpg.jpg
+│   │   │   ├── lamo.png
+│   │   │   ├── png.png
+│   │   │   ├── product-1.png
+│   │   │   ├── product-2.png
+│   │   │   ├── product-3.png
+│   │   │   └── sofa.png
+│   │   └── styles/
+│   │       ├── cart.css
+│   │       ├── HomePage.css
+│   │       └── shopPage2.css
+│   ├── components/
+│   │   ├── MyComponent/
+│   │   │   ├── MyComponent.js
+│   │   │   └── MyComponent.css (or .module.css)
+│   │   └── ... (other reusable components)
+│   ├── pages/
+│   │   ├── Blog.js
+│   │   ├── Cart.js
+│   │   ├── Contact.js
+│   │   ├── Home.js
+│   │   ├── Privacy.js
+│   │   ├── Services.js
+│   │   └── Shop.js
+│   ├── App.js
+│   └── index.js
+├── package.json
+├── package-lock.json
+└── README.md
+
+
+
+
+
+
+
+
+frontend/
+├── public/
+│   ├── index.html         // Main HTML file for your app
+│   ├── favicon.ico        // Favicon for the browser tab
+│   ├── robots.txt         // Instructions for search engine crawlers
+│   └── manifest.json      // Metadata for Progressive Web Apps (PWAs)
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   │   ├── couch.png
+│   │   │   ├── hero-banner.jpg
+│   │   │   ├── image.jpg.jpg
+│   │   │   ├── lamo.png
+│   │   │   ├── png.png
+│   │   │   ├── product-1.png
+│   │   │   ├── product-2.png
+│   │   │   ├── product-3.png
+│   │   │   └── sofa.png
+│   │   └── styles/
+│   │       ├── cart.css        // CSS for the Cart page
+│   │       ├── HomePage.css     // CSS for the Home page
+│   │       └── shopPage2.css   // CSS for Shop page 2
+│   ├── components/
+│   │   ├── MyComponent/
+│   │   │   ├── MyComponent.js   // Reusable component logic
+│   │   │   └── MyComponent.module.css // CSS scoped to MyComponent
+│   │   ├── ProductCard/
+│   │   │   ├── ProductCard.js
+│   │   │   └── ProductCard.module.css
+│   │   ├── Navbar/
+│   │   │   ├── Navbar.js
+│   │   │   └── Navbar.module.css
+│   │   └── Footer/
+│   │       ├── Footer.js
+│   │       └── Footer.module.css
+│   ├── pages/
+│   │   ├── Blog.js           // Blog page component
+│   │   ├── Cart.js           // Shopping cart page component
+│   │   ├── Contact.js        // Contact form page component
+│   │   ├── Home.js           // Home page component
+│   │   ├── Privacy.js        // Privacy policy page component
+│   │   ├── Services.js        // Services page component
+│   │   └── Shop.js           // Shop page component
+│   ├── App.js              // Main application component
+│   ├── index.js            // Entry point of the React app
+│   └── utils/              // Utility functions (e.g., API calls, date formatting)
+│       ├── api.js
+│       └── helpers.js
+├── package.json          // Project dependencies and scripts
+├── package-lock.json     // Exact versions of installed packages
+└── README.md             // Project documentation
+
+
+
+
+
+
+
+
+
+
+FURNITURE_DESIG/
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   ├── favicon.ico
+│   │   ├── robots.txt
+│   │   └── manifest.json
+│   ├── src/
+│   │   ├── assets/
+│   │   │   ├── images/
+│   │   │   │   ├── couch.png
+│   │   │   │   ├── hero-banner.jpg
+│   │   │   │   ├── image.jpg.jpg
+│   │   │   │   ├── lamo.png
+│   │   │   │   ├── png.png
+│   │   │   │   ├── product-1.png
+│   │   │   │   ├── product-2.png
+│   │   │   │   ├── product-3.png
+│   │   │   │   └── sofa.png
+│   │   │   └── styles/
+│   │   │       ├── cart.module.css
+│   │   │       ├── HomePage.module.css
+│   │   │       └── shopPage2.module.css
+│   │   ├── components/
+│   │   │   ├── MyComponent/
+│   │   │   │   ├── MyComponent.js
+│   │   │   │   └── MyComponent.module.css
+│   │   │   ├── ProductCard/
+│   │   │   │   ├── ProductCard.js
+│   │   │   │   └── ProductCard.module.css
+│   │   │   ├── Navbar/
+│   │   │   │   ├── Navbar.js
+│   │   │   │   └── Navbar.module.css
+│   │   │   └── Footer/
+│   │   │       ├── Footer.js
+│   │   │       └── Footer.module.css
+│   │   ├── pages/
+│   │   │   ├── Blog.js
+│   │   │   ├── Cart.js
+│   │   │   ├── Contact.js
+│   │   │   ├── Home.js
+│   │   │   ├── Privacy.js
+│   │   │   ├── Services.js
+│   │   │   └── Shop.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── utils/
+│   │       ├── api.js
+│   │       └── helpers.js
+│   ├── package.json
+│   ├── package-lock.json
+│   └── README.md
+├── backend/
+│   ├── controllers/
+│   │   ├── productController.js
+│   │   ├── userController.js
+│   │   └── ... (other controllers)
+│   ├── models/
+│   │   ├── productModel.js
+│   │   ├── userModel.js
+│   │   └── ... (other models)
+│   ├── routes/
+│   │   ├── productRoutes.js
+│   │   ├── userRoutes.js
+│   │   └── ... (other routes)
+│   ├── config/
+│   │   ├── db.js
+│   │   └── ... (other configuration files)
+│   ├── middleware/
+│   │   ├── authMiddleware.js
+│   │   └── ... (other middleware)
+│   ├── utils/
+│   │   ├── errorHandler.js
+│   │   └── ... (utility functions)
+│   ├── server.js
+│   ├── package.json
+│   ├── package-lock.json
+│   └── .env
+└── README.md
+
+
+
+
+
+
+
+
+
+
+frontend/
+├── public/
+│   ├── index.html           // Main HTML file
+│   ├── favicon.ico          // Browser tab icon
+│   ├── robots.txt           // Search engine directives
+│   ├── manifest.json        // PWA manifest
+│   ├── sitemap.xml          // Sitemap for SEO
+│   └── assets/              // Static assets (fonts, etc.)
+│       └── fonts/
+│           └── ... (font files)
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   │   ├── couch.png
+│   │   │   ├── hero-banner.jpg
+│   │   │   └── ... (other images)
+│   │   ├── styles/
+│   │   │   ├── global.css        // Global styles
+│   │   │   ├── reset.css         // CSS reset
+│   │   │   ├── variables.css     // CSS variables
+│   │   │   ├── cart.module.css
+│   │   │   ├── HomePage.module.css
+│   │   │   └── shopPage2.module.css
+│   │   └── icons/            // SVG icons
+│   │       └── ... (icon files)
+│   ├── components/
+│   │   ├── MyComponent/
+│   │   │   ├── MyComponent.js
+│   │   │   └── MyComponent.module.css
+│   │   ├── ProductCard/
+│   │   │   ├── ProductCard.js
+│   │   │   └── ProductCard.module.css
+│   │   ├── Navbar/
+│   │   │   ├── Navbar.js
+│   │   │   └── Navbar.module.css
+│   │   ├── Footer/
+│   │   │   ├── Footer.js
+│   │   │   └── Footer.module.css
+│   │   ├── Button/
+│   │   │   ├── Button.js
+│   │   │   └── Button.module.css
+│   │   ├── Input/
+│   │   │   ├── Input.js
+│   │   │   └── Input.module.css
+│   │   ├── Modal/
+│   │   │   ├── Modal.js
+│   │   │   └── Modal.module.css
+│   │   └── ... (more components)
+│   ├── contexts/             // React contexts for state management
+│   │   ├── AuthContext.js
+│   │   └── CartContext.js
+│   ├── hooks/                // Custom React hooks
+│   │   ├── useFetch.js
+│   │   └── useForm.js
+│   ├── layouts/              // Layout components (e.g., main layout)
+│   │   └── MainLayout.js
+│   ├── pages/
+│   │   ├── Blog.js
+│   │   ├── Cart.js
+│   │   ├── Contact.js
+│   │   ├── Home.js
+│   │   ├── Privacy.js
+│   │   ├── Services.js
+│   │   └── Shop.js
+│   ├── services/            // API services
+│   │   └── api.js
+│   ├── utils/
+│   │   ├── helpers.js
+│   │   └── dateUtils.js
+│   ├── App.js
+│   ├── index.js
+│   ├── routes.js             // Routing configuration (if using React Router)
+│   ├── types.js              // TypeScript type definitions (if using TypeScript)
+│   └── constants.js          // Constants used in the application
+├── package.json
+├── package-lock.json
+├── tsconfig.json           // TypeScript configuration (if using TypeScript)
+└── README.md
+
+
+
+
+
+
+
+

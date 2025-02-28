@@ -1,0 +1,183 @@
+Furniture_Desig/
+├── frontend/
+│   └── ... (your frontend files and directories)
+├── backend/
+│   ├── controllers/
+│   │   ├── productController.js
+│   │   ├── userController.js
+│   │   └── ... (other controllers)
+│   ├── models/
+│   │   ├── productModel.js
+│   │   ├── userModel.js
+│   │   └── ... (other models)
+│   ├── routes/
+│   │   ├── productRoutes.js
+│   │   ├── userRoutes.js
+│   │   └── ... (other routes)
+│   ├── config/
+│   │   ├── db.js
+│   │   └── ... (other configuration files)
+│   ├── middleware/
+│   │   ├── authMiddleware.js
+│   │   └── ... (other middleware)
+│   ├── utils/
+│   │   ├── errorHandler.js
+│   │   └── ... (utility functions)
+│   ├── server.js
+│   ├── package.json
+│   ├── package-lock.json
+│   └── .env (for environment variables)
+└── README.md
+
+
+
+
+
+
+
+
+
+
+
+backend/
+├── controllers/
+│   ├── productController.js
+│   ├── userController.js
+│   ├── orderController.js
+│   ├── reviewController.js
+│   └── authController.js
+├── models/
+│   ├── productModel.js
+│   ├── userModel.js
+│   ├── orderModel.js
+│   ├── reviewModel.js
+│   └── categoryModel.js
+├── routes/
+│   ├── productRoutes.js
+│   ├── userRoutes.js
+│   ├── orderRoutes.js
+│   ├── reviewRoutes.js
+│   └── authRoutes.js
+├── config/
+│   ├── db.js
+│   ├── authConfig.js
+│   ├── mailConfig.js
+│   └── cloudinaryConfig.js
+├── middleware/
+│   ├── authMiddleware.js
+│   ├── errorMiddleware.js
+│   ├── validationMiddleware.js
+│   └── loggingMiddleware.js
+├── services/
+│   ├── productService.js
+│   ├── userService.js
+│   ├── orderService.js
+│   ├── reviewService.js
+│   └── mailService.js
+├── utils/
+│   ├── errorHandler.js
+│   ├── apiFeatures.js
+│   ├── jwtUtils.js
+│   ├── fileUploadUtils.js
+│   └── validationUtils.js
+├── tests/
+│   ├── product.test.js
+│   ├── user.test.js
+│   └── ... (more test files)
+├── seeders/
+│   ├── productSeeder.js
+│   ├── userSeeder.js
+│   └── ... (more seeders)
+├── server.js
+├── app.js
+├── package.json
+├── package-lock.json
+├── .env
+└── README.md
+
+
+
+
+
+
+
+
+
+
+
+
+
+backend/
+├── controllers/
+│   ├── productController.js
+│   ├── userController.js
+│   ├── orderController.js
+│   ├── reviewController.js
+│   └── authController.js
+├── models/
+│   ├── productModel.js
+│   ├── userModel.js
+│   ├── orderModel.js
+│   ├── reviewModel.js
+│   └── categoryModel.js
+├── routes/
+│   ├── productRoutes.js
+│   ├── userRoutes.js
+│   ├── orderRoutes.js
+│   ├── reviewRoutes.js
+│   └── authRoutes.js
+├── config/
+│   ├── db.js             // Database connection (MongoDB in this case)
+│   ├── authConfig.js
+│   ├── mailConfig.js
+│   └── cloudinaryConfig.js
+├── middleware/
+│   ├── authMiddleware.js
+│   ├── errorMiddleware.js
+│   ├── validationMiddleware.js
+│   └── loggingMiddleware.js
+├── services/
+│   ├── productService.js
+│   ├── userService.js
+│   ├── orderService.js
+│   ├── reviewService.js
+│   └── mailService.js
+├── utils/
+│   ├── errorHandler.js
+│   ├── apiFeatures.js
+│   ├── jwtUtils.js
+│   ├── fileUploadUtils.js
+│   └── validationUtils.js
+├── tests/
+│   ├── product.test.js
+│   ├── user.test.js
+│   └── ... (more test files)
+├── seeders/
+│   ├── productSeeder.js
+│   ├── userSeeder.js
+│   └── ... (more seeders)
+├── database/            // Database-related scripts and data
+│   ├── migrations/      // Database migrations (if applicable)
+│   ├── seeds/           // Seed data (alternative location)
+│   └── backups/         // Database backups
+├── server.js
+├── app.js
+├── package.json
+├── package-lock.json
+├── .env
+└── README.md
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

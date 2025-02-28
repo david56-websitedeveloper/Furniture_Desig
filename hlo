@@ -1,0 +1,139 @@
+FURNITURE_DESIG/
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   ├── favicon.ico
+│   │   ├── robots.txt
+│   │   ├── manifest.json
+│   │   ├── sitemap.xml
+│   │   └── assets/
+│   │       └── fonts/
+│   │           └── ... (font files)
+│   ├── src/
+│   │   ├── assets/
+│   │   │   ├── images/
+│   │   │   │   ├── couch.png
+│   │   │   │   ├── hero-banner.jpg
+│   │   │   │   └── ... (other images)
+│   │   │   ├── styles/
+│   │   │   │   ├── global.css
+│   │   │   │   ├── reset.css
+│   │   │   │   ├── variables.css
+│   │   │   │   ├── cart.module.css
+│   │   │   │   ├── HomePage.module.css
+│   │   │   │   └── shopPage2.module.css
+│   │   │   └── icons/
+│   │   │       └── ... (icon files)
+│   │   ├── components/
+│   │   │   ├── MyComponent/
+│   │   │   │   ├── MyComponent.js
+│   │   │   │   └── MyComponent.module.css
+│   │   │   ├── ProductCard/
+│   │   │   │   ├── ProductCard.js
+│   │   │   │   └── ProductCard.module.css
+│   │   │   ├── Navbar/
+│   │   │   │   ├── Navbar.js
+│   │   │   │   └── Navbar.module.css
+│   │   │   ├── Footer/
+│   │   │   │   ├── Footer.js
+│   │   │   │   └── Footer.module.css
+│   │   │   ├── Button/
+│   │   │   │   ├── Button.js
+│   │   │   │   └── Button.module.css
+│   │   │   ├── Input/
+│   │   │   │   ├── Input.js
+│   │   │   │   └── Input.module.css
+│   │   │   ├── Modal/
+│   │   │   │   ├── Modal.js
+│   │   │   │   └── Modal.module.css
+│   │   │   └── ... (more components)
+│   │   ├── contexts/
+│   │   │   ├── AuthContext.js
+│   │   │   └── CartContext.js
+│   │   ├── hooks/
+│   │   │   ├── useFetch.js
+│   │   │   └── useForm.js
+│   │   ├── layouts/
+│   │   │   └── MainLayout.js
+│   │   ├── pages/
+│   │   │   ├── Blog.js
+│   │   │   ├── Cart.js
+│   │   │   ├── Contact.js
+│   │   │   ├── Home.js
+│   │   │   ├── Privacy.js
+│   │   │   ├── Services.js
+│   │   │   └── Shop.js
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   ├── utils/
+│   │   │   ├── helpers.js
+│   │   │   └── dateUtils.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   ├── routes.js
+│   │   ├── types.js
+│   │   └── constants.js
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── tsconfig.json
+│   └── README.md
+├── backend/
+│   ├── controllers/
+│   │   ├── productController.js
+│   │   ├── userController.js
+│   │   ├── orderController.js
+│   │   ├── reviewController.js
+│   │   └── authController.js
+│   ├── models/
+│   │   ├── productModel.js
+│   │   ├── userModel.js
+│   │   ├── orderModel.js
+│   │   ├── reviewModel.js
+│   │   └── categoryModel.js
+│   ├── routes/
+│   │   ├── productRoutes.js
+│   │   ├── userRoutes.js
+│   │   ├── orderRoutes.js
+│   │   ├── reviewRoutes.js
+│   │   └── authRoutes.js
+│   ├── config/
+│   │   ├── db.js
+│   │   ├── authConfig.js
+│   │   ├── mailConfig.js
+│   │   └── cloudinaryConfig.js
+│   ├── middleware/
+│   │   ├── authMiddleware.js
+│   │   ├── errorMiddleware.js
+│   │   ├── validationMiddleware.js
+│   │   └── loggingMiddleware.js
+│   ├── services/
+│   │   ├── productService.js
+│   │   ├── userService.js
+│   │   ├── orderService.js
+│   │   ├── reviewService.js
+│   │   └── mailService.js
+│   ├── utils/
+│   │   ├── errorHandler.js
+│   │   ├── apiFeatures.js
+│   │   ├── jwtUtils.js
+│   │   ├── fileUploadUtils.js
+│   │   └── validationUtils.js
+│   ├── tests/
+│   │   ├── product.test.js
+│   │   ├── user.test.js
+│   │   └── ... (more test files)
+│   ├── seeders/
+│   │   ├── productSeeder.js
+│   │   ├── userSeeder.js
+│   │   └── ... (more seeders)
+│   ├── database/
+│   │   ├── migrations/
+│   │   ├── seeds/
+│   │   └── backups/
+│   ├── server.js
+│   ├── app.js
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── .env
+│   └── README.md
+└── README.md
